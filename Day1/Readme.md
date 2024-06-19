@@ -1,0 +1,1 @@
+### Key Takeaways From Day 1 coding challenge with
