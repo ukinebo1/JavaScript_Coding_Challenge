@@ -44,13 +44,39 @@ console.log(challengeCharAt);
 let challengeCharCodeAt = challenge.charCodeAt("J")
 console.log(challengeCharCodeAt);
 // 15. Use __indexOf__ to determine the position of the first occurrence of __a__ in 30 Days Of JavaScript
+let challengeIndexOf =challenge.indexOf("a")
+console.log(challengeIndexOf);
 // 16. Use __lastIndexOf__ to determine the position of the last occurrence of __a__ in 30 Days Of JavaScript.
+let phrase = "You cannot end a sentence with because because because is a conjunction"
+let challengeLastIndexOf =challenge.lastIndexOf("a")
+console.log(challengeLastIndexOf);
+
 // 17. Use __indexOf__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+let challengeIndexOfBecause =phrase.indexOf("because")
+console.log(challengeIndexOfBecause);
+
 // 18. Use __lastIndexOf__ to find the position of the last occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+let phraseLastIndex = phrase.lastIndexOf("because")
+console.log(phraseLastIndex)
 // 19. Use __search__ to find the position of the first occurrence of the word __because__ in the following sentence:__'You cannot end a sentence with because because because is a conjunction'__
+let phraseSearch = phrase.search("because")
+console.log(phraseSearch);
 // 20. Use __trim()__ to remove any trailing whitespace at the beginning and the end of a string.E.g ' 30 Days Of JavaScript '.
+let trimPhrase = " 30 Days Of JavaScript "
+console.log(trimPhrase.trim());
 // 21. Use __startsWith()__ method with the string *30 Days Of JavaScript* and make the result true
+let str = "30 Days Of JavaScript"
+let strStart = str.startsWith("30")
+console.log(strStart);
 // 22. Use __endsWith()__ method with the string *30 Days Of JavaScript* and make the result true
+let strEnd = str.endsWith("t")
+console.log(strEnd);
 // 23. Use __match()__ method to find all the __a__’s in 30 Days Of JavaScript
+let strMatch = str.match(/a/gi)
+console.log(strMatch);
 // 24. Use __concat()__ and merge '30 Days of' and 'JavaScript' to a single string, '30 Days Of JavaScript'
+let words = '30 Days Of '
+console.log(words.concat("JavaScript"));
 // 25. Use __repeat()__ method to print 30 Days Of JavaScript 2 times
+let strRepeat = str.repeat(2)
+console.log(strRepeat);
