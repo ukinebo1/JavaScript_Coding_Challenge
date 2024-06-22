@@ -1,5 +1,9 @@
 // Write a script that prompt the user to enter base and height of the triangle and calculate an area of a triangle (area = 0.5 x b x h).
-
+// let base = prompt("Enter base", "")
+// let height = prompt("Enter height", "")
+// let result = base * height * 0.5
+// alert(`The area of the triangle is ${result}`)
+// console.log(result);
 //    ```sh
 //    Enter base: 20
 //    Enter height: 10
@@ -7,7 +11,11 @@
 //    ```
 
 // 1. Write a script that prompt the user to enter side a, side b, and side c of the triangle and and calculate the perimeter of triangle (perimeter = a + b + c)
-
+let a =parseInt( prompt("Enter side a:"))
+let b =parseInt( prompt("Enter side b:"))
+let c =parseInt( prompt("Enter side c"))
+let res =a + b + c
+alert(`The perimeter of the triangle is ${res}`)
 //    ```sh
 //    Enter side a: 5
 //    Enter side b: 4
@@ -16,6 +24,8 @@
 //    ```
 
 // 1. Get length and width using prompt and calculate an area of rectangle (area = length x width and the perimeter of rectangle (perimeter = 2 x (length + width))
+let len =prompt("Enter the length")
+let width =prompt("Enter the width")
 // 1. Get radius using prompt and calculate the area of a circle (area = pi x r x r) and circumference of a circle(c = 2 x pi x r) where pi = 3.14.
 // 1. Calculate the slope, x-intercept and y-intercept of y = 2x -2
 // 1. Slope is m = (y<sub>2</sub>-y<sub>1</sub>)/(x<sub>2</sub>-x<sub>1</sub>). Find the slope between point (2, 2) and point(6,10)
