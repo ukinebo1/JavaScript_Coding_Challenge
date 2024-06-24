@@ -6,6 +6,38 @@
 //    - 60-69, C
 //    - 50-59, D
 //    - 0-49, F
+
+let grade = 39;
+switch (grade) {
+  case "A":
+    if (grade >= 80 || grade <= 100) {
+      console.log("A");
+    }
+    break;
+  case "B":
+    if (grade >= 70 || grade <= 79) {
+      console.log("B");
+    }
+    break;
+  case "C":
+    if (grade >= 60 || grade <= 69) {
+      console.log("C");
+    }
+    break;
+  case "D":
+    if (grade >= 50 || grade <= 59) {
+      console.log("D");
+    }
+    break;
+  case "F":
+    if (grade >= 0 || grade <= 49) {
+      console.log("F");
+    }
+    break;
+  default:
+    console.log("You did not write the exam");
+    break;
+}
 // 1. Check if the season is Autumn, Winter, Spring or Summer.
 //    If the user input is :
 //    - September, October or November, the season is Autumn.
